@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolioko HR</title>
+    <!-- Lien vers ton futur fichier CSS -->
+    <link rel="stylesheet" href="Style.css">
+    <!-- Lien pour les icônes (FontAwesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header class="header">
+        <div class="logo-container">
+            <div class="logo-icon">HR</div>
+            <div class="logo-text">
+                <h1>S. Herilahatra RAFANOMEZANIAINA</h1>
+                <p>Étudiant • Économiste • Passionné de Data</p>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#" class="active">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#">Parcours</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-actions">
+            <a href="assets/CV_Sitraka_Herilahatra.pdf" class="btn-cv">Télécharger mon CV <i class="fa-solid fa-download"></i></a>
+            <!-- Bouton menu burger pour mobile -->
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- ================= SECTION HERO ================= -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-tagline">APPRENDRE • ANALYSER • CONSTRUIRE</p>
+            <h2 class="hero-title">S. Herilahatra <span class="gold-text">RAFANOMEZANIAINA</span></h2>
+            <p class="hero-subtitle">Étudiant en économie quantitative, <br>développant une approche analytique à la croisée <br>de la finance, du business et des technologies.</p>
+            <p class="hero-description">Curieux, déterminé et en quête d'opportunités,<br>je transforme mes connaissances en solutions concrètes.</p>
+            
+            <div class="hero-buttons">
+                <a href="#about" class="btn btn-primary">Découvrir mon parcours <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#projects" class="btn btn-outline"><i class="fa-solid fa-play"></i> Voir mon portfolio</a>
+            </div>
+        </div>
+        
+        <div class="hero-quote">
+            <p>— « Il reste beaucoup à apprendre, <br> beaucoup à construire et toujours une raison d'espérer. »</p>
+        </div>
+    </section>
+
+    <!-- ================= SECTION À PROPOS & COMPÉTENCES ================= -->
+    <section class="about-skills" id="about">
+        
+        <!-- Bloc À propos -->
+        <div class="about-card">
+            <div class="about-image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2eMMESpEDM1DZH-PaXn-oRoQ3HiXQ2VIScpi4fW7H4w&s" alt="Vue sur la ville">
+            </div>
+            <div class="about-content">
+                <h3>— À propos de moi</h3>
+                <p>Licence III Économie à l'Université d'Antananarivo, passionné par la finance, l'analyse de données et la stratégie. Je développe mes compétences en Excel, Python, SQL et en analyse économique pour bâtir une carrière utile, créer de la valeur et contribuer au progrès.</p>
+                <a href="#" class="btn btn-outline-small">En savoir plus <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <!-- Bloc Compétences -->
+        <div class="skills-card" id="skills">
+            <h3>— Mes compétences</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fa-solid fa-chart-line gold-text"></i>
+                    <p>Finance<br>& Économie<br>& statistique</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-laptop-code gold-text"></i>
+                    <p>Analyse<br>de Données <br>(Python, SQL,Excel)</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-users gold-text"></i>
+                    <p>Leadership<br>& comptabilité<br>& Gestion</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-code gold-text"></i>
+                    <p>développement web front-end<br>(HTML, CSS, JS)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= SECTION PROJETS & OBJECTIFS ================= -->
+    <section class="projects-goals" id="projects">
+        
+        <!-- Bloc Projets -->
+        <div class="projects-section">
+            <div class="section-header">
+                <div>
+                    <h3>— Mes projets</h3>
+                    <p>Des projets concrets pour apprendre et progresser</p>
+                </div>
+                <a href="#" class="link-arrow">Voir tous mes projets <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Projet 1 : Telco Customer Churn -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://miro.medium.com/v2/resize:fit:1400/1*Ynyzn8h4avNj0vB6vPaREg.png" 
+                            alt="Dashboard Telco Customer Churn">
+                    </div>
+
+                    <div class="project-info">
+                        <div class="project-title-row">
+                            <h4>Telco Customer Churn</h4>
+                            <a href="https://github.com/rafanomezaniainasherilahatra-source/telco-customer-churn" class="project-link"
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            aria-label="Voir le projet sur GitHub">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <p>
+                            Projet personnel d'analyse des données clients visant à explorer
+                            les facteurs de désabonnement et à développer un modèle prédictif
+                            intégré dans une application interactive avec Dash.
+                        </p>
+                        <div class="project-status">
+                            <i class="fa-brands fa-github"></i>
+                            <span>Disponible sur GitHub</span>
+                        </div>
+
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Scikit-learn</span>
+                            <span>Dash</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Projet 2 : Mémoire de Licence -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://boursenews.ma/uploads/actualites/64c393d657e3d_1000179_blogspot-quels-futurs-pour-la-politique-monetaire-et-la-croissance-economique-94771-1.jpeg"
+                            alt="Mémoire de Licence - Analyse économique">
+                    </div>
+
+                    <div class="project-info">
+                        <div class="project-title-row">
+                            <h4>Politique monétaire à Madagascar</h4>
+                        </div>
+                        <p> Analyse de la transmission de la politique monétaire à Madagascar, en étudiant la relation entre le corridor des taux directeurs et les taux débiteurs bancaires, ainsi que les délais de transmission.
+                        </p>
+                        <div class="project-status">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Travail académique</span>
+                        </div>
+
+                        <div class="project-tags">
+                            <span>Eco/monétaire</span>
+                            <span>Économétrie</span>
+                            <span>Finance</span>
+                        </div>
+                    </div>
+                </article>
+                <!-- Projet 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=400&auto=format&fit=crop" alt="Transition Énergétique">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-title-row">
+                            <h4>Transition Énergétique</h4>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        <p>Analyse des données pour un avenir durable</p>
+                        <div class="project-tags">
+                            <span>Data Analysis</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Bloc Objectifs -->
+        <div class="goals-section">
+            <h3><i class="fa-solid fa-bullseye gold-text"></i> Mes objectifs</h3>
+            <ul class="goals-list">
+                <li><i class="fa-solid fa-square-check gold-text"></i> Décrocher un premier stage ou emploi.</li>
+                <li><i class="fa-solid fa-square-check gold-text"></i>Renforcer mes compétences en Excel, SQL, Python et BI.</li>
+                <li><i class="fa-solid fa-square-check gold-text"></i> Construire un parcours dans la finance, la data et les technologies.</li>
+                <li><i class="fa-solid fa-square-check gold-text"></i> Explorer, à terme, des opportunités entrepreneuriales.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer" id="contact">
+        
+        <div class="footer-top">
+            <div class="footer-quote">
+                <p>« La connaissance est le premier<br>pas vers la liberté. »</p>
+            </div>
+            
+            <div class="footer-highlights">
+                <div class="highlight-item">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>Licence III<br>Économie</span>
+                </div>
+                <div class="highlight-item">
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <span>Compétences<br>en progression</span>
+                </div>
+                <div class="highlight-item">
+                    <i class="fa-solid fa-handshake"></i>
+                    <span>Ambition<br>sans limite</span>
+                </div>
+            </div>
+
+            <div class="footer-contact">
+                <a href="mailto:contact@henryranaly.com" class="btn btn-primary">✉ Me contacter <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+        </div>
+
+        <hr class="footer-divider">
+
+        <div class="footer-bottom">
+            <div class="footer-logo">
+                <span class="gold-text">HR</span> S. Herilahatra RAFANOMEZANIAINA | <span>Portfolio personnel</span>
+            </div>
+            <div class="footer-socials">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lien vers ton futur fichier JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
